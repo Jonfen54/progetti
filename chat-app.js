@@ -24,6 +24,10 @@ var main = function() {
   });
   
   $('.btn').addClass('disabled');
+  
+  $('.btn-empty').click(function() {
+      $('.posts').empty();
+  });
 };
 
 $(document).ready(main);
