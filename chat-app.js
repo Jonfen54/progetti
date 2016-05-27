@@ -26,6 +26,7 @@ var main = function() {
   $('.btn').addClass('disabled');
   
   $('.btn-empty').click(function() {
+      alert("Are you sure you want to delete all the posts?");  
       $('.posts').empty();
   });
 };
